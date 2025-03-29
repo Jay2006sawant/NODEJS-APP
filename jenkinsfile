@@ -1,7 +1,8 @@
 pipeline{
     agent any
     tools{
-NODEJS 'Nodejs'
+nodejs 'Nodejs',
+maven 'maven'
     }
     stages{
         stage('Git Checkout'){
