@@ -17,6 +17,7 @@ maven 'maven'
          stage('Build Application'){
             steps{
                 bat 'npm run build'
+                echo 'Build Succesful'
             }
         }
         stage('Test'){
