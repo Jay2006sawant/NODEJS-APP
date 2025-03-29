@@ -6,7 +6,7 @@ maven 'maven'
     stages{
         stage('Git Checkout'){
             steps{
-        git branch:'master' , url:"https://github.com/Jay2006sawant/NODEJS-APP.git"
+        git branch:'main' , url:"https://github.com/Jay2006sawant/NODEJS-APP.git"
             }
         }
         stage('Install Dependencies'){
